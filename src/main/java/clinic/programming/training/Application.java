@@ -11,7 +11,7 @@ public class Application {
 	
 	public int countWords(String s){
 		String []words=StringUtils.split(s," ");
-		return words.length;
+		return(words==null)? 0:words.length;
 	}
 	
 	public void greet(){
